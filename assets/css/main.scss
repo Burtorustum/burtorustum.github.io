@@ -64,7 +64,7 @@ a {
   font-size: 2vw;
   font-family: Ubuntu, sans-serif;
   color: white;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
   //background-color: rgb(32,97,132);
 
 }
@@ -73,13 +73,14 @@ a {
   position: absolute;
   top: 0;
   right: 2px;
+  background-color: transparent;
 }
 
 img.icon {
-  width: 1.7vw;
+  width: 2vw;
   height: auto;
   filter: invert(0);
-
+  background-color: transparent;
 }
 
 .footer {
