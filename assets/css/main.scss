@@ -10,10 +10,17 @@ a {
   text-decoration: none;
 }
 
-#particles-js {
+.wrapper {
   position: relative;
-  height: 100%;
-  width:  100%;
+  width: 100%;
+  height: 90vh;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .title {
@@ -51,4 +58,5 @@ a {
 .footer {
   font-size: 1vmax;
   color: white;
+  height: 1vmax;
 }
