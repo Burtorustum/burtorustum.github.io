@@ -5,7 +5,9 @@
 
 * {background-color: black}
 
-body { height:100%;}
+html {
+  padding: 0
+}
 
 a {
   color:inherit;
@@ -68,7 +70,6 @@ a {
   }
 
   position: relative;
-  font-size: 2vw;
   font-family: Ubuntu, sans-serif;
   color: white;
   border-bottom: 2px solid white;
@@ -84,14 +85,8 @@ a {
 }
 
 img.icon {
-  @media screen and (min-width: 480px) {
-    width: 1em;
-  }
-  @media screen and (min-width: 1600px) {
-    width: 2vw;
-  }
-
-  height: auto;
+  width: auto;
+  height: 1em;
   filter: invert(0);
   background-color: transparent;
 }
